@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Retrieve database path from .env 
+# Retrieve database path from .env (or use default value)
 DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./vulnradar.db")
 DB_PATH = DATABASE_URL.replace("sqlite:///./", "")
 
