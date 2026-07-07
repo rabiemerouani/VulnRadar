@@ -46,7 +46,7 @@ def init_db():
             );
         """)
 
-        # Table 3: Ports (Depends on Hosts)
+        # Table 3: Ports 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS ports (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
