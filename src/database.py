@@ -60,7 +60,7 @@ def init_db():
             );
         """)
 
-        # Table 4: CVE Findings (Depends on Ports)
+        # Table 4: CVE Findings 
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS cve_findings (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
