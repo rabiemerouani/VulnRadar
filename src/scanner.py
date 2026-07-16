@@ -1,4 +1,3 @@
-# src/scanner.py
 import asyncio
 import ipaddress
 import logging
